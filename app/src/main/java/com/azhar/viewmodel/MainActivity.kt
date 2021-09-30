@@ -23,11 +23,11 @@ class MainActivity : AppCompatActivity() {
     fun increment(view: android.view.View) {
 
         mainViewModel.increment()
-        textView.text = mainViewModel.i.toString()
+        textView.text = mainViewModel.count.toString()
 
 //        i++
 //        textView.text = i.toString()
-////        setText()
+//        setText()
     }
 //
 //    private fun setText() {

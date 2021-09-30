@@ -4,8 +4,8 @@ import androidx.lifecycle.ViewModel
 
 class MainViewModel: ViewModel() {
 
-    var i=1
+    var count=1
     fun increment() {
-        i++
+        count++
     }
 }
